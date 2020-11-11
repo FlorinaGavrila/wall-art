@@ -1,0 +1,93 @@
+/* Global style */
+
+html {
+    box-sizing: border-box;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+
+/* Container style */
+
+.container {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-color: seagreen;
+    background-repeat: repeat;
+}
+
+
+/* Elements styles */
+
+
+/* First photo */
+
+.frame1 {
+    position: absolute;
+    top: 5vw;
+    left: 2vw;
+    z-index: 2;
+}
+
+.frame1 img {
+    width: 30vw;
+}
+
+.image1 {
+    position: absolute;
+    top: 8vw;
+    left: 6vw;
+    z-index: 1;
+}
+
+.image1 img {
+    width: 22vw;
+}
+
+
+/* Second photo */
+
+.frame2 {
+    position: absolute;
+    top: 5vw;
+    left: 36vw;
+}
+
+.frame2 img {
+    width: 30vw;
+}
+
+
+/* Third photo */
+
+.frame3 {
+    position: absolute;
+    top: 5vw;
+    right: 2vw;
+}
+
+.frame3 img {
+    width: 30vw;
+}
+
+
+/* Media querry */
+
+@media only screen and (max-width: 375px) {
+    .frame {
+        position: absolute;
+        left: 15vw;
+    }
+    .frame img {
+        width: 70vw;
+    }
+    .frame2 {
+        top: 90vw;
+        left: 15vw;
+    }
+    .frame2 img {
+        width: 70vw;
+    }
+}
