@@ -1,4 +1,4 @@
-# Wall Art project:
+# Wall Art project
 ## Project purpose:
 - The purpose of the project is to recreate an wall art from the museum applying the following properties.
 ## Description:
