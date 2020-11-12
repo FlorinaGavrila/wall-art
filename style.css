@@ -33,23 +33,23 @@ body {
     top: 5vw;
     left: 2.5vw;
     z-index: 2;
+    filter: drop-shadow(0.39vw 0.78vw 0.23vw black);
 }
 
 .frame1 img {
     width: 30vw;
 }
 
-
-/* .image1 {
+.image1 {
     position: absolute;
     top: 8vw;
-    left: 6vw;
+    left: 5.5vw;
     z-index: 1;
 }
 
 .image1 img {
-    width: 22vw;
-} */
+    width: 24vw;
+}
 
 
 /* Second photo */
@@ -58,10 +58,23 @@ body {
     position: absolute;
     top: 5vw;
     left: 35vw;
+    z-index: 2;
+    filter: drop-shadow(0.39vw 0.78vw 0.23vw black);
 }
 
 .frame2 img {
     width: 30vw;
+}
+
+.image2 {
+    position: absolute;
+    top: 8vw;
+    left: 38vw;
+    z-index: 1;
+}
+
+.image2 img {
+    width: 24vw;
 }
 
 
@@ -71,16 +84,30 @@ body {
     position: absolute;
     top: 5vw;
     right: 2.5vw;
+    z-index: 2;
+    filter: drop-shadow(0.39vw 0.78vw 0.23vw black);
 }
 
 .frame3 img {
     width: 30vw;
 }
 
+.image3 {
+    position: absolute;
+    top: 7.9vw;
+    right: 6vw;
+    z-index: 1;
+}
+
+.image3 img {
+    width: 23vw;
+}
+
 
 /* Media querry  */
 
-@media only screen and (max-width: 375px) {
+
+/* @media only screen and (max-width: 375px) {
     .frame {
         position: absolute;
         left: 15vw;
@@ -95,4 +122,4 @@ body {
     .frame2 img {
         width: 70vw;
     }
-}
+} */
