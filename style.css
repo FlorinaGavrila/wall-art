@@ -7,6 +7,10 @@ html {
     height: 100vh;
 }
 
+body {
+    margin: 0;
+}
+
 
 /* Container style */
 
@@ -27,7 +31,7 @@ html {
 .frame1 {
     position: absolute;
     top: 5vw;
-    left: 2vw;
+    left: 2.5vw;
     z-index: 2;
 }
 
@@ -35,7 +39,8 @@ html {
     width: 30vw;
 }
 
-.image1 {
+
+/* .image1 {
     position: absolute;
     top: 8vw;
     left: 6vw;
@@ -44,7 +49,7 @@ html {
 
 .image1 img {
     width: 22vw;
-}
+} */
 
 
 /* Second photo */
@@ -52,7 +57,7 @@ html {
 .frame2 {
     position: absolute;
     top: 5vw;
-    left: 36vw;
+    left: 35vw;
 }
 
 .frame2 img {
@@ -65,7 +70,7 @@ html {
 .frame3 {
     position: absolute;
     top: 5vw;
-    right: 2vw;
+    right: 2.5vw;
 }
 
 .frame3 img {
@@ -73,7 +78,7 @@ html {
 }
 
 
-/* Media querry */
+/* Media querry  */
 
 @media only screen and (max-width: 375px) {
     .frame {
