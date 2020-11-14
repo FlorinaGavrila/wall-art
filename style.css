@@ -106,20 +106,69 @@ body {
 
 /* Media querry  */
 
-
-/* @media only screen and (max-width: 375px) {
-    .frame {
+@media only screen and (min-width: 100px) and (max-width: 727px) {
+    .container {
         position: absolute;
-        left: 15vw;
+        width: 100vw;
+        height: 137vh;
+        background-color: seagreen;
+        background-repeat: repeat;
     }
-    .frame img {
-        width: 70vw;
+    .frame1 {
+        position: absolute;
+        left: 25vw;
+        z-index: 2;
+        filter: drop-shadow(0.7vw 1.7vw 0.5vw black);
+    }
+    .frame1 img {
+        width: 50vw;
+    }
+    .image1 {
+        position: absolute;
+        left: 28vw;
+        z-index: 1;
+    }
+    .image1 img {
+        width: 44vw;
     }
     .frame2 {
-        top: 90vw;
-        left: 15vw;
+        position: absolute;
+        top: 70vw;
+        left: 25vw;
+        z-index: 2;
+        filter: drop-shadow(0.7vw 1.7vw 0.5vw black);
     }
     .frame2 img {
-        width: 70vw;
+        width: 50vw;
     }
-} */
+    .image2 {
+        position: absolute;
+        top: 73vw;
+        left: 28vw;
+        z-index: 1;
+    }
+    .image2 img {
+        width: 44vw;
+    }
+    .frame3 {
+        position: absolute;
+        top: 135vw;
+        right: 25vw;
+        z-index: 2;
+        filter: drop-shadow(0.7vw 1.7vw 0.5vw black);
+    }
+    .frame3 img {
+        width: 50vw;
+    }
+    .image3 {
+        position: absolute;
+        top: 137vw;
+        right: 29vw;
+        z-index: 1;
+    }
+    .image3 img {
+        width: 42vw;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 2048px) {}
