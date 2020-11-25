@@ -5,6 +5,10 @@ html {
     margin: 0;
     width: 100vw;
     height: 100vh;
+    background-color: seagreen;
+    /* Global variables */
+    --desktop: 0.39vw 0.78vw 0.23vw black;
+    --mobile: 0.7vw 1.7vw 0.5vw black;
 }
 
 body {
@@ -33,7 +37,7 @@ body {
     top: 5vw;
     left: 2.5vw;
     z-index: 2;
-    filter: drop-shadow(0.39vw 0.78vw 0.23vw black);
+    filter: drop-shadow(var(--desktop));
 }
 
 .frame1 img {
@@ -59,7 +63,7 @@ body {
     top: 5vw;
     left: 35vw;
     z-index: 2;
-    filter: drop-shadow(0.39vw 0.78vw 0.23vw black);
+    filter: drop-shadow(var(--desktop));
 }
 
 .frame2 img {
@@ -85,7 +89,7 @@ body {
     top: 5vw;
     right: 2.5vw;
     z-index: 2;
-    filter: drop-shadow(0.39vw 0.78vw 0.23vw black);
+    filter: drop-shadow(var(--desktop));
 }
 
 .frame3 img {
@@ -104,7 +108,7 @@ body {
 }
 
 
-/* Media querry  */
+/* Media querry */
 
 @media only screen and (min-width: 100px) and (max-width: 727px) {
     .container {
@@ -118,7 +122,7 @@ body {
         position: absolute;
         left: 25vw;
         z-index: 2;
-        filter: drop-shadow(0.7vw 1.7vw 0.5vw black);
+        filter: drop-shadow(var(--mobile));
     }
     .frame1 img {
         width: 50vw;
@@ -136,7 +140,7 @@ body {
         top: 70vw;
         left: 25vw;
         z-index: 2;
-        filter: drop-shadow(0.7vw 1.7vw 0.5vw black);
+        filter: drop-shadow(var(--mobile));
     }
     .frame2 img {
         width: 50vw;
@@ -155,7 +159,7 @@ body {
         top: 135vw;
         right: 25vw;
         z-index: 2;
-        filter: drop-shadow(0.7vw 1.7vw 0.5vw black);
+        filter: drop-shadow(var(--mobile));
     }
     .frame3 img {
         width: 50vw;
@@ -172,13 +176,12 @@ body {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
-    /* First frame*/
     .frame1 {
         position: absolute;
         top: 10vw;
         left: 6.6vw;
         z-index: 2;
-        filter: drop-shadow(0.7vw 1.7vw 0.5vw black);
+        filter: drop-shadow(var(--mobile));
     }
     .frame1 img {
         width: 40vw;
@@ -192,13 +195,12 @@ body {
     .image1 img {
         width: 35vw;
     }
-    /* Second frame */
     .frame2 {
         position: absolute;
         top: 10vw;
         left: 53.2vw;
         z-index: 2;
-        filter: drop-shadow(0.7vw 1.7vw 0.5vw black);
+        filter: drop-shadow(var(--mobile));
     }
     .frame2 img {
         width: 40vw;
@@ -212,13 +214,12 @@ body {
     .image2 img {
         width: 34vw;
     }
-    /* Third frame  */
     .frame3 {
         position: absolute;
         top: 70vw;
         right: 30vw;
         z-index: 2;
-        filter: drop-shadow(0.7vw 1.7vw 0.5vw black);
+        filter: drop-shadow(var(--mobile));
     }
     .frame3 img {
         width: 40vw;
